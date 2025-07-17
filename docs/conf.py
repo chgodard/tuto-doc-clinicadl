@@ -6,17 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-<<<<<<< HEAD
-project = "NeuroPlot"
-copyright = "2025, ARAMIS Lab"
-author = "ARAMIS Lab"
-release = "0.1.0"
-=======
 project = 'NeuroPlot'
 copyright = '2025, ARAMIS Lab'
 author = 'ARAMIS Lab'
 release = '0.1.0'
->>>>>>> tutorial
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -30,22 +23,12 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.viewcode",
     "sphinx.ext.autosummary",
-<<<<<<< HEAD
-    "sphinx.ext.extlinks",
-    "sphinx_gallery.gen_gallery",
-    "sphinxcontrib.bibtex",
-]
-
-templates_path = ["_templates"]
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
-=======
 
 
 ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
->>>>>>> tutorial
 
 autodoc_inherit_docstrings = False
 
@@ -55,40 +38,11 @@ intersphinx_mapping = {
     "matplotlib": ("https://matplotlib.org/stable/", None),
 }
 
-<<<<<<< HEAD
-from pathlib import Path
-
-sphinx_gallery_conf = {
-    "examples_dirs": "../examples",
-    "gallery_dirs": "auto_examples",
-    "backreferences_dir": Path("api", "generated"),  # where mini-galleries are stored
-    "doc_module": (
-        "neuroplot",
-    ),  # generate mini-galleries for all the objects in neuroplot
-}
-
-bibtex_bibfiles = ["references.bib"]
-
-extlinks = {
-    "nibabel": (
-        "https://nipy.org/nibabel/%s",
-        None,
-    ),
-}
-=======
->>>>>>> tutorial
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-<<<<<<< HEAD
-html_theme = "furo"
-html_title = "NeuroPlot"
-html_logo = "_static/logos/logo_ARAMISLAB_rvb.png"
-html_static_path = ["_static"]
-=======
 html_theme = 'furo'
 html_static_path = ['_static']
 html_title = "NeuroPlot"
 html_logo = "_static/logos/logo_ARAMISLAB_rvb.png"
->>>>>>> tutorial

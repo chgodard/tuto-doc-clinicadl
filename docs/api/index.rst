@@ -1,13 +1,6 @@
 API Reference
 =============
 
-<<<<<<< HEAD
-.. toctree::
-    :maxdepth: 1
-    
-    plot
-    transforms
-=======
 .. autosummary::
     :toctree: generated/
     :nosignatures:
@@ -18,4 +11,3 @@ API Reference
     neuroplot.plot.multiple.MultiplePlot
     neuroplot.transforms.Noise
     neuroplot.transforms.RescaleIntensity
->>>>>>> tutorial
