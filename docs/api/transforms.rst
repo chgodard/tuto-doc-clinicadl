@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ``neuroplot.transforms``: Transforming images before plotting
 =============================================================
 
@@ -12,3 +13,13 @@
 
    Noise
    RescaleIntensity
+=======
+API Reference
+=============
+
+.. toctree::
+    :maxdepth: 1
+
+    plot
+    transforms
+>>>>>>> tutorial

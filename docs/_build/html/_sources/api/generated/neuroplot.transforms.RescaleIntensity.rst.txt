@@ -1,0 +1,7 @@
+﻿neuroplot.transforms.RescaleIntensity
+=====================================
+
+.. currentmodule:: neuroplot.transforms
+
+.. autoclass:: RescaleIntensity
+    :members:
